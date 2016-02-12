@@ -24,10 +24,10 @@ module Victoria
     def has_letter?(letter)
       @hidden & [letter] == [letter]
     end
-	
-	def word
-	  @word
-	end
+
+    def word
+      @word
+    end
 
     def initialize
       @hidden = selector('word',
